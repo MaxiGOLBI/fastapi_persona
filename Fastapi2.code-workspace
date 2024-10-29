@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Final2do"
+		},
+		{
+			"path": "../../Persona"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MP_web"
+	}
+}

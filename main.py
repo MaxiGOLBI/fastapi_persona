@@ -45,6 +45,7 @@ def get_persona(persona_id: int):
             return persona
     raise HTTPException(status_code=404, detail="Persona not found")
 
+
 # Actualizar una persona existente
 @app.put("/persona/{persona_id}", response_model=Persona)
 def update_persona(persona_id: int, persona_updated: Persona):
